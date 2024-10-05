@@ -206,7 +206,7 @@ s1: begin asel=0; bsel=0; ldx=1; ldy=1; done=0; out_en=0; end
 s2: begin asel=0; bsel=0; ldx=0; ldy=0; done=0; out_en=0; end
 s3: begin asel=0; bsel=0; ldx=0; ldy=0; done=0; out_en=0; end
 s4: begin asel=1; bsel=0; ldx=1; ldy=0; done=0; out_en=0; end
-s5: begin asel=1; bsel=1; ldx=0; ldy=1; done=0; out_en=0; end
+s5: begin asel=0; bsel=1; ldx=0; ldy=1; done=0; out_en=0; end
 s6: begin asel=1; bsel=1; ldx=1; ldy=1; done=1; out_en=1; end
 endcase
 end
